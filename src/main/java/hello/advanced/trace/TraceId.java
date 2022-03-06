@@ -12,9 +12,9 @@ public class TraceId {
         this.level = 0;
     }
 
-    public TraceId(String id, int i) {
+    private TraceId(String id, int level) {
         this.id = id;
-        this.level = i;
+        this.level = level;
     }
 
     private String createId() {
